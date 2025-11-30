@@ -13,7 +13,7 @@ class DataIngestion():
         try:
             
             # directory to save raw data
-            data_store = os.path.join(".\spam_mlops\data", "raw")
+            data_store = os.path.join(".\data", "raw")
             os.makedirs(data_store, exist_ok=True)
 
             df = pd.read_csv(data_path, encoding="latin1")
