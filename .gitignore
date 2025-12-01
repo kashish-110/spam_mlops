@@ -211,3 +211,4 @@ data/*
 !data/.gitkeep
 !data/.dvc   # allow DVC metadata
 
+/data
